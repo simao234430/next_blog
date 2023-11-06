@@ -6,6 +6,14 @@
 const { withContentlayer } = require('next-contentlayer')
 module.exports = withContentlayer({
   images: {
+    remotePatterns: [
+      {
+          protocol: 'https',
+          hostname: '**',
+          port: '',
+          pathname: '**',
+      },
+  ],
     domains: ['pbs.twimg.com', 'avatars.githubusercontent.com', 'i.imgur.com'],
   },
   headers: async () => [{
