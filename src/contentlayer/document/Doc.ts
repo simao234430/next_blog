@@ -121,5 +121,5 @@ const tocPlugin =
             })
         }
       }
-    }
+    };
   }

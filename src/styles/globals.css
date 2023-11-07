@@ -1,4 +1,8 @@
 @import url('./tailwind.css');
+@import url('./twoslash-shiki.css');
+@import url('./hljs-github-dark.css');
+@import url('./markdown.css');
+
 @layer base {
   @font-face {
     font-family: 'Virgil';
